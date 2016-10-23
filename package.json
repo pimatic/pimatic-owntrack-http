@@ -1,0 +1,30 @@
+{
+  "name": "pimatic-owntrack-http",
+  "description": "Pimatic owntrack-http plugin",
+  "author": "Oliver Schneder <oliverschneider+sweetpi@googlemail.com> (https://pimatic.org)",
+  "main": "pimatic-owntrack-http.coffee",
+  "files": [
+    "pimatic-owntrack-http.coffee",
+    "README.md",
+    "pimatic-owntrack-http-config-schema.coffee",
+    "device-config-schema.coffee"
+  ],
+  "version": "0.9.0",
+  "homepage": "https://github.com/pimatic/pimatic-owntrack-http",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pimatic/pimatic-owntrack-http-plugin.git"
+  },
+  "configSchema": "pimatic-owntrack-http-config-schema.coffee",
+  "dependencies": {
+    "geolib": "2.0.21"
+  },
+  "peerDependencies": {
+    "pimatic": ">=0.8.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}
